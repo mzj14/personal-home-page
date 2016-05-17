@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta name="keywords" content="马子俊 前端新手 个人主页"/>
+  <meta name="discription" content="马子俊 前端新手 个人主页"/>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>马子俊-前端新手-个人主页</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/> 
+</head>
+<body>
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+
+      <div class="navbar-header">
+        <a class="navbar-brand"><i class="fa fa-flag-o fa-lg"></i></a>
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      
+      <div class="collapse navbar-collapse" id="mydropdown">
+        <ul class="nav navbar-nav">
+          <li class="active"><a>主页</a></li>
+          <li><a>文章</a></li>
+          <li><a>图片</a></li>
+          <li><a>留言</a></li>
+        </ul>
+     </div>
+      
+    </div>
+  </nav>
+  
+  <div class="carousel slide" id="myslider" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+      <li data-target="#myslider" data-slide-to="0" class="active"></li>
+      <li data-target="#myslider" data-slide-to="1"></li>
+      <li data-target="#myslider" data-slide-to="2"></li>
+    </ol>
+    
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/programmer.jpg"/>
+        <div class="carousel-caption">
+          <h2>Dedicated to be a programmer.</h2>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/runner.png"/>
+        <div class="carousel-caption">
+          <h2>Always look forward.</h2>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/climber.png"/>
+        <div class="carousel-caption">
+          <h2>Hold on. You will make it.</h2>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="modal" id="mymodal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" type="button" data-dismiss="modal">X</button>
+          <h2 class="modal-title">非常抱歉&nbsp;&nbsp;<i class="fa fa-meh-o"></i></h2>
+        </div>
+        <div class="modal-body">
+          <p>由于个人网站处在备案审核阶段，无法提供更多的信息，但依然非常感谢您的光临!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class="container">
+    <div class="row" id="row1">
+      <h1>时间将见证前端新人的成长之旅</h1>
+    </div>
+    <div class="row" id="row2">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+              <h1 class="panel-title" data-toggle="collapse" data-target="#panel-1"><i class="fa fa-male"></i>&nbsp;个人介绍</h1>
+            </div>
+            <div class="panel-collapse collapse" id="panel-1">
+              <div class="panel-body">
+                <p>马子俊，男，清华大学软件工程专业二年级本科生。做事认真负责，积极上进，学习能力强。作为一名前端新手，非常希望能在暑期获得一份前端实习工作！</p>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <a data-toggle="modal" data-target="#mymodal">更多信息...</a>
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+              <h1 class="panel-title" data-toggle="collapse" data-target="#panel-2"><i class="fa fa-book"></i>&nbsp;教育经历</h1>
+            </div>
+            <div class="panel-collapse collapse" id="panel-2">
+              <div class="panel-body">
+                <ul>
+                  <li><p>2011.9--2014.6&nbsp;&nbsp;安徽省合肥一中(高中)</p></li>
+                  <li><p>2011.12&nbsp;&nbsp;全国青少年信息学奥林匹克联赛安徽省一等奖</p></li>
+                  <li><p>2014.9至今&nbsp;&nbsp;清华大学软件工程专业(本科)</p></li>
+                  <li><p>2015.10&nbsp;&nbsp;清华大学竞技世界奖学金</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <a data-toggle="modal" data-target="#mymodal">更多信息...</a>
+            </div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h1 class="panel-title" data-toggle="collapse" data-target="#panel-3"><i class="fa fa-font"></i>&nbsp;英文水平</h1>
+            </div>
+            <div class="panel-collapse collapse" id="panel-3">
+              <div class="panel-body">
+                <ul>
+                  <li><p>2013.06&nbsp;&nbsp;希望之星英语风采大赛安徽赛区高中组二等奖</p></li>
+                  <li><p>2014.12&nbsp;&nbsp;CET4&nbsp;&nbsp;629</p></li>
+                  <li><p>2015.06&nbsp;&nbsp;CET6&nbsp;&nbsp;577</p></li>                <li><p>2015.11&nbsp;&nbsp;清华大学英语水平等级考试&nbsp;&nbsp;6.5级(最高7级)</p></li>
+                  <li><p>目前正在准备剑桥商务英语(BEC)中级考试</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <a data-toggle="modal" data-target="#mymodal">更多信息...</a>
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h1 class="panel-title" data-toggle="collapse" data-target="#panel-4"><i class="fa fa-soccer-ball-o"></i>&nbsp;个人爱好</h1>
+            </div>
+            <div class="panel-collapse collapse" id="panel-4">
+              <div class="panel-body">
+                <ul>
+                  <li>长跑</li>
+                  <li>羽毛球</li>
+                  <li>青年文摘</li>
+                  <li>歌唱</li>
+                </ul>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <a data-toggle="modal" data-target="#mymodal">更多信息...</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-2">
+          <p>与我联系</p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <p><i class="fa fa-envelope"></i>mzj14@mails.tsinghua.edu.cn</p>
+        </div>
+        <div class="col-xs-12 col-sm-2">
+          <p><i class="fa fa-weixin"></i>mazijun14</p>
+        </div>
+        <div class="col-xs-12 col-sm-2">
+          <p><i class="fa fa-qq"></i>2276423511</p>
+        </div>
+        <div class="col-xs-12 col-sm-2">
+          <p><i class="fa fa-github"></i>mzj14</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/jquery-1.12.3.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
